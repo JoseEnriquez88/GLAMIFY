@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Adam-Bold';
+	src: url('../../assets/fonts/Adam-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'AGRESSIVE';
+	src: url('../../assets/fonts/AGRESSIVE.otf') format('truetype');
+}
+
+.formContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 350px;
+	height: 450px;
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid rgb(0, 0, 0);
+    font-family: Adam-Bold, sans-serif;
+}
+
+.logInMsg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-family: AGRESSIVE, sans-serif;
+}
+
+.emailContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: black;
+}
+
+.passwordContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: black;
+}
+
+.buttonLog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 140px;
+	height: 40px;
+	border: 1.5px solid rgb(0, 0, 0);
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: transparent;
+	margin-top: 100px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	text-decoration: none;
+	color: black;
+}
+
+.buttonLog:hover {
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+.Inputs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: transparent;
+	outline: none;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 3px;
+	height: 25px;
+	width: 220px;
+}
+
+.labels {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: black;
+	padding-top: 20px;
+}
+
+.showPassword {
+	border: none;
+}
+
+.ShowMain {
+	padding-left: 190px;
+}
