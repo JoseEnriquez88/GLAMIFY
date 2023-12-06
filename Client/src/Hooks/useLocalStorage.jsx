@@ -21,18 +21,3 @@ export function useLocalStorage(key, initialValue) {
 
   return [storedValue, setValue];
 }
-
-// export function useLocalStorage(key, initialValue) {
-//   // Get the initial value from local storage or use the provided initial value
-//   const [value, setValue] = useState(() => {
-//     const storedValue = localStorage.getItem(key);
-//     return storedValue ? JSON.parse(storedValue) : initialValue;
-//   });
-
-//   // Save the value to local storage whenever it changes
-//   useEffect(() => {
-//     localStorage.setItem(key, JSON.stringify(value));
-//   }, [key, value]);
-
-//   return [value, setValue];
-// }
