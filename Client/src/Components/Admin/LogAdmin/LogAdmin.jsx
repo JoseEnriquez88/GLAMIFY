@@ -58,18 +58,20 @@ const Login = ({ login }) => {
             onChange={handlerChange}
             required
           />
-		  <div className={styles.ShowMain}>
-          <button className={styles.showPassword}
-            type="button"
-            onClick={handleTogglePasswordVisibility}>
-            {showPassword ? <VisibilityOffIcon /> : <VisibilityIcon />}
-          </button>
-		  </div>
         </div>
         <button className={styles.buttonLog} type="submit">
           INICIAR SESION
         </button>
       </form>
+      <div className={styles.ShowMain}>
+        <button
+          className={styles.showPassword}
+          type="button"
+          onClick={handleTogglePasswordVisibility}
+        >
+          {showPassword ? <VisibilityOffIcon /> : <VisibilityIcon />}
+        </button>
+      </div>
     </div>
   );
 };

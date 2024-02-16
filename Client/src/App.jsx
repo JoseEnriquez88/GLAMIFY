@@ -20,7 +20,7 @@ import UserList from "./Components/Admin/UserList/UserList.jsx";
 import Favorites from "./Components/Favorites/Favorites.jsx";
 import Cards from "./Components/Admin/Cards/Cards.jsx";
 import Ventas from "./Components/Admin/Purchase/Purchase.jsx";
-axios.defaults.baseURL = import.meta.env.API_GLAMIFY_URL;
+axios.defaults.baseURL = import.meta.env.VITE_API_GLAMIFY_URL;
 const { VITE_ADMIN_USER, VITE_ADMIN_PASSWORD } = import.meta.env;
 
 function App() {
