@@ -12,3 +12,7 @@
 
 <h2>Landing</h2>
 <img src="./mock-ups/landing.jpeg" alt="" />
+<hr />
+
+<h2>Home</h2>
+<img src="./mock-ups/home.jpeg" alt="">
