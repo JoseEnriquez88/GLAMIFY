@@ -6,10 +6,9 @@
 <h2>Stack:</h4>
 <h3>Frontend: HTML, CSS, Javascript, React, Redux</h3>
 <h3>Backend: Node, Express, PostgreSQL</h3>
-<h2>Third Party:</h2>
-<h3>Nodemailer, Cloudinary, Mercado Pago, Auth0</h3>
+<h3>Third party: Nodemailer, Cloudinary, Mercado Pago, Auth0</h3>
 <hr />
 <h1>Algunas imágenes del e-commerce./Here are some e-commerce images.</h1>
 
 <h2>Landing</h2>
-<img src="/mock-ups/landing.jpeg" alt="" />
+<img src="./public/mock-ups/landing.jpeg" alt="" />
