@@ -16,3 +16,9 @@
 
 <h2>Home</h2>
 <img src="./mock-ups/home.jpeg" alt="">
+
+<h2>login</h2>
+<img src="./mock-ups/login.jpeg" alt="">
+
+<h2>Cart/Carrito de compras</h2>
+<img src="./mock-ups/cart.jpeg" alt="">
