@@ -11,4 +11,4 @@
 <h1>Algunas imágenes del e-commerce./Here are some e-commerce images.</h1>
 
 <h2>Landing</h2>
-<img src="./public/mock-ups/landing.jpeg" alt="" />
+<img src="./mock-ups/landing.jpeg" alt="" />
